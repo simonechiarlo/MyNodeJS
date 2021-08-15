@@ -18,7 +18,7 @@ function generaVal(){
 
 
 const server = http.createServer((req, res) => {
-    if(req.url === "/pippe"){
+    if(req.url === "/test"){
         res.write(a.toString());
     }
     /*
@@ -29,6 +29,6 @@ const server = http.createServer((req, res) => {
 });
 
 server.listen(port, hostname, () => {
-  console.log(`Server running at http://${hostname}:${port}/pippe`);
+  console.log(`Server running at http://${hostname}:${port}/test`);
 });
 
