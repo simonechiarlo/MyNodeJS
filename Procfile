@@ -1,1 +1,1 @@
-Web: node ./main.js
+npm start
